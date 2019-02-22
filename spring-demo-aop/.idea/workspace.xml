@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd5c48a4-36dc-4a3a-aa3c-cda3ee5837b3" name="Default" comment="" />
+    <list default="true" id="dd5c48a4-36dc-4a3a-aa3c-cda3ee5837b3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/poczekajcie/aopdemo/MainDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/poczekajcie/aopdemo/MainDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/poczekajcie/aopdemo/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/poczekajcie/aopdemo/dao/AccountDAO.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/poczekajcie/aopdemo/MainDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+            <state relative-caret-position="340">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,10 +39,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/poczekajcie/aopdemo/aspects/DemoLoggingAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/poczekajcie/aopdemo/dao/AccountDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="36" />
+            <state relative-caret-position="119">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -77,9 +94,10 @@
         <option value="$PROJECT_DIR$/src/com/poczekajcie/spring/SwimCoach.java" />
         <option value="$PROJECT_DIR$/src/com/poczekajcie/spring/SwimJavaConfigDemoApp.java" />
         <option value="$PROJECT_DIR$/src/com/poczekajcie/spring/SportConfig.java" />
-        <option value="$PROJECT_DIR$/src/com/poczekajcie/aopdemo/dao/AccountDAO.java" />
         <option value="$PROJECT_DIR$/src/DemoConfig.java" />
         <option value="$PROJECT_DIR$/src/com/poczekajcie/aopdemo/DemoConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/poczekajcie/aopdemo/dao/AccountDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/poczekajcie/aopdemo/aspects/DemoLoggingAspect.java" />
         <option value="$PROJECT_DIR$/src/com/poczekajcie/aopdemo/MainDemoApp.java" />
       </list>
     </option>
@@ -140,7 +158,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550770600773" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550821162606" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/aspectjweaver-1.9.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -306,18 +324,18 @@
       <workItem from="1548939142593" duration="4302000" />
       <workItem from="1550492128085" duration="142000" />
       <workItem from="1550511124626" duration="54000" />
-      <workItem from="1550769494974" duration="1055000" />
+      <workItem from="1550769494974" duration="2443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12046000" />
+    <option name="totallyTimeSpent" value="13434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.04614221" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14069591" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +344,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40296054" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29296234" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -530,13 +548,6 @@
     <entry file="file://$PROJECT_DIR$/annotations.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/poczekajcie/aopdemo/dao/AccountDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/poczekajcie/aopdemo/DemoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -547,10 +558,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/poczekajcie/aopdemo/dao/AccountDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/poczekajcie/aopdemo/aspects/DemoLoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/poczekajcie/aopdemo/MainDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+        <state relative-caret-position="340">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
